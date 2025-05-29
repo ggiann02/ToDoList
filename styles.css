@@ -1,3 +1,12 @@
+:root {
+  --mauve: #7A5C61;;
+  --pink: #F7ACCF;
+  --grey: #E8F0FF;
+  --violet: #6874E8;
+  --blue: #392759;
+}
+
+
 .completed {
     text-decoration: line-through;
     color: gray;
@@ -5,7 +14,7 @@
 }
 
 body { 
-    background: rgb(196, 244, 255);
+    background: var(--grey);
     font-family: Arial, sans-serif;
     text-align: center;
     margin-top: 50px;
